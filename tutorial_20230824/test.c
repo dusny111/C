@@ -1,14 +1,18 @@
 #include <stdio.h>
-#include "max.h" //引用自己的头文件
 
 int main()
 {
-    int a = 10;
-    int b = 20;
-    int c = Max(a, b);
+    
 
-    printf("Hellow Worldaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa!\n");
-    printf("%d\n", c);
+    int userOption;
+    int userGuess;
+    int zeroStart = 0;
 
+    // 猜数字游戏2
+    printf("\t\t\t猜数字游戏\n");
+    printf("\t\t\t是否开始游戏\n");
+    printf("\t\t\t1.开始游戏\n");
+    printf("\t\t\t2.退出游戏\n");
+    scanf("%d", userOption);
     return 0;
 }
